@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594249F9243296CB0073633C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594249F8243296CB0073633C /* AppDelegate.swift */; };
+		594249FB243296CB0073633C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594249FA243296CB0073633C /* SceneDelegate.swift */; };
+		594249FD243296CB0073633C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594249FC243296CB0073633C /* ViewController.swift */; };
+		59424A00243296CB0073633C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594249FE243296CB0073633C /* Main.storyboard */; };
+		59424A02243296CC0073633C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59424A01243296CC0073633C /* Assets.xcassets */; };
+		59424A05243296CC0073633C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59424A03243296CC0073633C /* LaunchScreen.storyboard */; };
+		59424A10243296CC0073633C /* Frydryck_Homework_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59424A0F243296CC0073633C /* Frydryck_Homework_7Tests.swift */; };
+		59424A1B243296CC0073633C /* Frydryck_Homework_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59424A1A243296CC0073633C /* Frydryck_Homework_7UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59424A0C243296CC0073633C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594249ED243296CB0073633C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594249F4243296CB0073633C;
+			remoteInfo = "Frydryck Homework 7";
+		};
+		59424A17243296CC0073633C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594249ED243296CB0073633C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594249F4243296CB0073633C;
+			remoteInfo = "Frydryck Homework 7";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		594249F5243296CB0073633C /* Frydryck Homework 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frydryck Homework 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		594249F8243296CB0073633C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		594249FA243296CB0073633C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		594249FC243296CB0073633C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		594249FF243296CB0073633C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59424A01243296CC0073633C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59424A04243296CC0073633C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59424A06243296CC0073633C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59424A0B243296CC0073633C /* Frydryck Homework 7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frydryck Homework 7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59424A0F243296CC0073633C /* Frydryck_Homework_7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frydryck_Homework_7Tests.swift; sourceTree = "<group>"; };
+		59424A11243296CC0073633C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59424A16243296CC0073633C /* Frydryck Homework 7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frydryck Homework 7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59424A1A243296CC0073633C /* Frydryck_Homework_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frydryck_Homework_7UITests.swift; sourceTree = "<group>"; };
+		59424A1C243296CC0073633C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594249F2243296CB0073633C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59424A08243296CC0073633C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59424A13243296CC0073633C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594249EC243296CB0073633C = {
+			isa = PBXGroup;
+			children = (
+				594249F7243296CB0073633C /* Frydryck Homework 7 */,
+				59424A0E243296CC0073633C /* Frydryck Homework 7Tests */,
+				59424A19243296CC0073633C /* Frydryck Homework 7UITests */,
+				594249F6243296CB0073633C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594249F6243296CB0073633C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594249F5243296CB0073633C /* Frydryck Homework 7.app */,
+				59424A0B243296CC0073633C /* Frydryck Homework 7Tests.xctest */,
+				59424A16243296CC0073633C /* Frydryck Homework 7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594249F7243296CB0073633C /* Frydryck Homework 7 */ = {
+			isa = PBXGroup;
+			children = (
+				594249F8243296CB0073633C /* AppDelegate.swift */,
+				594249FA243296CB0073633C /* SceneDelegate.swift */,
+				594249FC243296CB0073633C /* ViewController.swift */,
+				594249FE243296CB0073633C /* Main.storyboard */,
+				59424A01243296CC0073633C /* Assets.xcassets */,
+				59424A03243296CC0073633C /* LaunchScreen.storyboard */,
+				59424A06243296CC0073633C /* Info.plist */,
+			);
+			path = "Frydryck Homework 7";
+			sourceTree = "<group>";
+		};
+		59424A0E243296CC0073633C /* Frydryck Homework 7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59424A0F243296CC0073633C /* Frydryck_Homework_7Tests.swift */,
+				59424A11243296CC0073633C /* Info.plist */,
+			);
+			path = "Frydryck Homework 7Tests";
+			sourceTree = "<group>";
+		};
+		59424A19243296CC0073633C /* Frydryck Homework 7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				59424A1A243296CC0073633C /* Frydryck_Homework_7UITests.swift */,
+				59424A1C243296CC0073633C /* Info.plist */,
+			);
+			path = "Frydryck Homework 7UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594249F4243296CB0073633C /* Frydryck Homework 7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59424A1F243296CC0073633C /* Build configuration list for PBXNativeTarget "Frydryck Homework 7" */;
+			buildPhases = (
+				594249F1243296CB0073633C /* Sources */,
+				594249F2243296CB0073633C /* Frameworks */,
+				594249F3243296CB0073633C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frydryck Homework 7";
+			productName = "Frydryck Homework 7";
+			productReference = 594249F5243296CB0073633C /* Frydryck Homework 7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59424A0A243296CC0073633C /* Frydryck Homework 7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59424A22243296CC0073633C /* Build configuration list for PBXNativeTarget "Frydryck Homework 7Tests" */;
+			buildPhases = (
+				59424A07243296CC0073633C /* Sources */,
+				59424A08243296CC0073633C /* Frameworks */,
+				59424A09243296CC0073633C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59424A0D243296CC0073633C /* PBXTargetDependency */,
+			);
+			name = "Frydryck Homework 7Tests";
+			productName = "Frydryck Homework 7Tests";
+			productReference = 59424A0B243296CC0073633C /* Frydryck Homework 7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59424A15243296CC0073633C /* Frydryck Homework 7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59424A25243296CC0073633C /* Build configuration list for PBXNativeTarget "Frydryck Homework 7UITests" */;
+			buildPhases = (
+				59424A12243296CC0073633C /* Sources */,
+				59424A13243296CC0073633C /* Frameworks */,
+				59424A14243296CC0073633C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59424A18243296CC0073633C /* PBXTargetDependency */,
+			);
+			name = "Frydryck Homework 7UITests";
+			productName = "Frydryck Homework 7UITests";
+			productReference = 59424A16243296CC0073633C /* Frydryck Homework 7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594249ED243296CB0073633C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Natalie Frydryck";
+				TargetAttributes = {
+					594249F4243296CB0073633C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					59424A0A243296CC0073633C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 594249F4243296CB0073633C;
+					};
+					59424A15243296CC0073633C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 594249F4243296CB0073633C;
+					};
+				};
+			};
+			buildConfigurationList = 594249F0243296CB0073633C /* Build configuration list for PBXProject "Frydryck Homework 7" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594249EC243296CB0073633C;
+			productRefGroup = 594249F6243296CB0073633C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594249F4243296CB0073633C /* Frydryck Homework 7 */,
+				59424A0A243296CC0073633C /* Frydryck Homework 7Tests */,
+				59424A15243296CC0073633C /* Frydryck Homework 7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594249F3243296CB0073633C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59424A05243296CC0073633C /* LaunchScreen.storyboard in Resources */,
+				59424A02243296CC0073633C /* Assets.xcassets in Resources */,
+				59424A00243296CB0073633C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59424A09243296CC0073633C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59424A14243296CC0073633C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594249F1243296CB0073633C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594249FD243296CB0073633C /* ViewController.swift in Sources */,
+				594249F9243296CB0073633C /* AppDelegate.swift in Sources */,
+				594249FB243296CB0073633C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59424A07243296CC0073633C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59424A10243296CC0073633C /* Frydryck_Homework_7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59424A12243296CC0073633C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59424A1B243296CC0073633C /* Frydryck_Homework_7UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59424A0D243296CC0073633C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594249F4243296CB0073633C /* Frydryck Homework 7 */;
+			targetProxy = 59424A0C243296CC0073633C /* PBXContainerItemProxy */;
+		};
+		59424A18243296CC0073633C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594249F4243296CB0073633C /* Frydryck Homework 7 */;
+			targetProxy = 59424A17243296CC0073633C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594249FE243296CB0073633C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594249FF243296CB0073633C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59424A03243296CC0073633C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59424A04243296CC0073633C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59424A1D243296CC0073633C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59424A1E243296CC0073633C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59424A20243296CC0073633C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN752K5L2X;
+				INFOPLIST_FILE = "Frydryck Homework 7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "setonhill.edu.Frydryck-Homework-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59424A21243296CC0073633C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN752K5L2X;
+				INFOPLIST_FILE = "Frydryck Homework 7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "setonhill.edu.Frydryck-Homework-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59424A23243296CC0073633C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN752K5L2X;
+				INFOPLIST_FILE = "Frydryck Homework 7Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "setonhill.edu.Frydryck-Homework-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frydryck Homework 7.app/Frydryck Homework 7";
+			};
+			name = Debug;
+		};
+		59424A24243296CC0073633C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN752K5L2X;
+				INFOPLIST_FILE = "Frydryck Homework 7Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "setonhill.edu.Frydryck-Homework-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frydryck Homework 7.app/Frydryck Homework 7";
+			};
+			name = Release;
+		};
+		59424A26243296CC0073633C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN752K5L2X;
+				INFOPLIST_FILE = "Frydryck Homework 7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "setonhill.edu.Frydryck-Homework-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frydryck Homework 7";
+			};
+			name = Debug;
+		};
+		59424A27243296CC0073633C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN752K5L2X;
+				INFOPLIST_FILE = "Frydryck Homework 7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "setonhill.edu.Frydryck-Homework-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frydryck Homework 7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594249F0243296CB0073633C /* Build configuration list for PBXProject "Frydryck Homework 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59424A1D243296CC0073633C /* Debug */,
+				59424A1E243296CC0073633C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59424A1F243296CC0073633C /* Build configuration list for PBXNativeTarget "Frydryck Homework 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59424A20243296CC0073633C /* Debug */,
+				59424A21243296CC0073633C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59424A22243296CC0073633C /* Build configuration list for PBXNativeTarget "Frydryck Homework 7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59424A23243296CC0073633C /* Debug */,
+				59424A24243296CC0073633C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59424A25243296CC0073633C /* Build configuration list for PBXNativeTarget "Frydryck Homework 7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59424A26243296CC0073633C /* Debug */,
+				59424A27243296CC0073633C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594249ED243296CB0073633C /* Project object */;
+}
