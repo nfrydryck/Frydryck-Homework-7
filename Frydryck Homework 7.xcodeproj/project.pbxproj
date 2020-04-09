@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590C2DAE2437C18500D5542D /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590C2DAD2437C18500D5542D /* LocationViewController.swift */; };
 		594249F9243296CB0073633C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594249F8243296CB0073633C /* AppDelegate.swift */; };
 		594249FB243296CB0073633C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594249FA243296CB0073633C /* SceneDelegate.swift */; };
 		594249FD243296CB0073633C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594249FC243296CB0073633C /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		590C2DAD2437C18500D5542D /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		594249F5243296CB0073633C /* Frydryck Homework 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frydryck Homework 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		594249F8243296CB0073633C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		594249FA243296CB0073633C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				59424A01243296CC0073633C /* Assets.xcassets */,
 				59424A03243296CC0073633C /* LaunchScreen.storyboard */,
 				59424A06243296CC0073633C /* Info.plist */,
+				590C2DAD2437C18500D5542D /* LocationViewController.swift */,
 			);
 			path = "Frydryck Homework 7";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				594249FD243296CB0073633C /* ViewController.swift in Sources */,
 				594249F9243296CB0073633C /* AppDelegate.swift in Sources */,
 				594249FB243296CB0073633C /* SceneDelegate.swift in Sources */,
+				590C2DAE2437C18500D5542D /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
